@@ -30,6 +30,7 @@ use Yoast\WP\SEO\Generators\Schema\Third_Party\CoAuthor;
 use Yoast\WP\SEO\Generators\Schema\Third_Party\Events_Calendar_Schema;
 use Yoast\WP\SEO\Helpers\Indexables_Page_Helper;
 use Yoast\WP\SEO\Integrations\Admin\Indexables_Page_Integration;
+use Yoast\WP\SEO\Integrations\Admin\Old_Premium_Integration;
 use Yoast\WP\SEO\Integrations\Admin\Social_Templates_Integration;
 use Yoast\WP\SEO\Routes\Indexables_Page_Route;
 use Yoast\WP\SEO\Integrations\Third_Party\CoAuthors_Plus;
@@ -50,6 +51,7 @@ $deprecated_classes = [
 	Indexables_Page_Action::class               => '20.4',
 	Indexables_Page_Helper::class               => '20.4',
 	Indexables_Page_Conditional::class          => '20.4',
+	Old_Premium_Integration::class              => '20.4',
 ];
 
 foreach ( $deprecated_classes as $original_class => $version ) {
