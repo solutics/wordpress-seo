@@ -1,6 +1,6 @@
 /** @module config/transitionWords */
 
-export const singleWords = [ "aber", "abschließend", "abschliessend", "alldieweil", "allerdings", "also", "anderenteils",
+export const singleWords = [ "indem", "aber", "abschließend", "abschliessend", "alldieweil", "allerdings", "also", "anderenteils",
 	"andererseits", "andernteils", "anfaenglich", "anfänglich", "anfangs", "angenommen", "anschliessend", "anschließend",
 	"aufgrund",	"ausgenommen", "ausserdem", "außerdem", "beispielsweise", "bevor", "beziehungsweise", "bspw", "bzw", "d.h",
 	"da", "dabei", "dadurch", "dafuer", "dafür", "dagegen", "daher", "dahingegen", "danach", "dann", "darauf", "darum", "dass",
